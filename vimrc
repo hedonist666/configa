@@ -14,4 +14,4 @@ filetype plugin indent on
 
 
 :nmap <C-N><C-N> :set invnumber<CR>
-nnoremap <C-K> :w<bar>:!/bin/bash ./scr.sh<CR>
+nnoremap <C-K> :w<bar>:!/bin/bash ./scr.sh %<CR>

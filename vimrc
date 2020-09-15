@@ -1,4 +1,6 @@
 set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab
+"creates .viminfo and maybe slows vim
+set viminfo='1000,f1
 :syntax on
 
 "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

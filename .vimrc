@@ -24,4 +24,4 @@ let g:user_emmet_leader_key=','
 highlight Normal ctermbg=None
 
 :nmap <C-N><C-N> :set invnumber<CR>
-nnoremap <C-K> :w<bar>:!clear;/bin/bash ./scr.sh %<CR>
+nnoremap <C-K> :w<bar>:!clear;[[ -x % ]] && ./% \|\| /bin/bash ./scr.sh %<CR>

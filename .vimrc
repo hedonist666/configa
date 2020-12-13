@@ -25,3 +25,5 @@ highlight Normal ctermbg=None
 
 :nmap <C-N><C-N> :set invnumber<CR>
 nnoremap <C-K> :w<bar>:!clear;[[ -x % ]] && ./% \|\| /bin/bash ./scr.sh %<CR>
+
+autocmd BufRead,BufNewFile *.asm setlocal smartindent

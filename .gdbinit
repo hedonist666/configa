@@ -11,7 +11,6 @@ set detach-on-fork on
 #cd pwndbg
 #./setup.sh
 
-
 define init-peda
 source ~/peda/peda.py
 end
@@ -28,6 +27,22 @@ end
 
 define init-gef
 source ~/.gdbinit-gef.py
+theme address_code red bold
+theme address_heap red bold
+theme address_stack red bold
+theme context_title_line gray bold
+theme context_title_message red bold
+theme default_title_line gray bold
+theme default_title_message red bold
+theme dereference_base_address red bold
+theme dereference_code gray bold
+theme dereference_string red bold
+theme disassemble_current_instruction red bold
+theme registers_register_name red bold
+theme registers_value_changed red bold
+theme source_current_line red bold
+theme table_heading red bold
+gef config context.layout "legend regs stack code args source memory threads -trace extra"
 end
 document init-gef
 Initializes GEF (GDB Enhanced Features)

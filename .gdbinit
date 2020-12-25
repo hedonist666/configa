@@ -39,7 +39,7 @@ theme dereference_code gray bold
 theme dereference_string red bold
 theme disassemble_current_instruction red bold
 theme registers_register_name red bold
-theme registers_value_changed red bold
+theme registers_value_changed blue bold
 theme source_current_line red bold
 theme table_heading red bold
 gef config context.layout "legend regs stack code args source memory threads -trace extra"

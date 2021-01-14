@@ -14,6 +14,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'mattn/emmet-vim'
 Plugin 'joshdick/onedark.vim'
 Plugin 'tpope/vim-endwise'
+Plugin 'alderz/smali-vim'
 call vundle#end()
 filetype plugin indent on
 
